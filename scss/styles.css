@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(72, 72, 72);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+section .form-container {
+  display: flex;
+  background-color: black;
+  background-image: url("../images/s24ultra.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 200px 0;
+  width: 1000px;
+  margin: auto;
+  height: 600px;
+}
+section .form-container .text {
+  display: flex;
+  color: white;
+  width: 50%;
+  padding: 0 100px;
+  align-items: center;
+  justify-content: center;
+}
+section .form-container .text form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  justify-content: center;
+  padding: 20px;
+  margin-top: -20px;
+}
+section .form-container .text form p {
+  font-size: 4rem;
+  color: red;
+  font-family: "poppins", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: -10px;
+}
+section .form-container .text form input[type=text], section .form-container .text form input[type=password] {
+  width: 250px;
+  display: block;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 8px;
+}
+section .form-container .text form input[type=text]:focus, section .form-container .text form input[type=password]:focus {
+  outline: none;
+  color: red;
+}
+section .form-container .text form input[type=submit] {
+  width: 100px;
+  margin: auto;
+  padding: 10px 5px;
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+section .form-container .text form input[type=submit]:hover {
+  background-color: rgb(106, 19, 19);
+}/*# sourceMappingURL=styles.css.map */
